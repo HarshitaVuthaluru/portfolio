@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Portfolio Website</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+  family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Design -->
+  <header>
+    <a href="#" class="logo">Cod<span>e</span>r.</a>
+    <ul class="navlist">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#services">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+
+  <!-- Home section Design -->
+  <section class="home" id="home">
+    <div class="home-text">
+      <div class="slide">
+        <span class="one">Hello</span>
+        <span class="two">I'm</span>
+      </div>
+      <h1>Harshita</h1>
+      <h3><span>Engineer in Progress</span></h3>
+      <p>An enthusiastic IT student with growing experience in Python, Java, and design tools <br>
+        Enthusiastic about innovation, teamwork, and learning by doing.</p>
+      <div class="button">
+        <a href="#" class="btn">Say Hello</a>
+        <a href="#about" class="btn2"><span><i class='bx bx-play'></i></span>Watch My Work</a>
+
+      </div>
+    </div>
+  </section>
+
+<!-- About section Design -->
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="background1.jpg" alt="Harshita Image">
+  </div>
+
+  <div class="about-text">
+    <h2>About<span> Me</span></h2>
+    <h4></h4>
+    
+    <ul class="about-points">
+      <li>Focused on building clean, responsive, and user-centered web interfaces.</li>
+      <li>Experience collaborating on real-time projects using agile and design thinking principles.</li>
+      <li>Skilled in HTML, CSS, JavaScript, and basic backend logic using Python.</li>
+      <li>Designed digital assets using Canva and Figma for technical and promotional use.</li>
+      <li>Committed to delivering structured, visually consistent designs across platforms.</li>
+      <li>Actively seeking growth in UI/UX, product design, and frontend engineering roles.</li>
+    </ul>
+
+    <a href="#services" class="btn">Explore My Skills</a>
+  </div>
+</section>
+
+
+
+
+<!-- Services section Design -->
+<section class="services" id="services">
+  <div class="main-text">
+    <p>What I am Good At</p>
+    <h2><span>My</span> Skills</h2>
+  </div>
+  <div class="services-content">
+    <div class="box">
+      <div class="s-icons">
+        <i class='bx bx-mobile-alt'></i>
+      </div>
+      <h3>Frontend Projects</h3>
+      <p>I create responsive, user-friendly web layouts using HTML, CSS, and JavaScript. I focus on layout structure, spacing, and design clarity across all devices.</p>
+      <a href="#" class="read" data-modal="skillProjects">Read More</a>
+    </div>
+
+    <div class="box">
+      <div class="s-icons">
+        <i class='bx bx-edit-alt'></i>
+      </div>
+      <h3>Design</h3>
+      <p>I use Canva and Figma to create clean posters and visuals for events and projects. I focus on visual balance and consistency, especially for team tasks.</p>
+      <a href="#" class="read" data-modal="skillProjects">Read More</a>
+    </div>
+
+    <div class="box">
+      <div class="s-icons">
+        <i class='bx bx-code-alt'></i>
+      </div>
+      <h3>Web Development</h3>
+      <p>I contribute to backend tasks using Python and work with data through scraping and logic. I've implemented login systems and filtering in projects.</p>
+      <a href="#" class="read" data-modal="skillProjects">Read More</a>
+    </div>
+  </div>
+</section>
+
+<!-- Skill Projects Popup Modal -->
+<div id="skillProjects" class="modal">
+  <div class="modal-content">
+    <span class="close" data-modal="skillProjects">&times;</span>
+    <h2>Projects Highlighting My Skills</h2>
+    <p><strong>Personalized News Aggregator</strong><br>
+    A team project using Python and scraping. I worked on filtering logic and data display.</p>
+    <p><strong>Responsive Portfolio Website</strong><br>
+    A personal project built from scratch using HTML, CSS, JS — fully mobile responsive with modal previews.</p>
+    <p><strong>Car Price Predictor</strong><br>
+    ML-based team project. I helped with cleaning data and accuracy testing using regression techniques.</p>
+    <p><strong>AWS Cloud Virtual Internship</strong><br>
+    Explored IAM, EC2, and storage. Developed confidence in deploying and understanding cloud basics.</p>
+    <p><strong>GoFlamingo Internship</strong><br>
+    Completed practical weekly tasks and developed consistency in writing and submitting clean code.</p>
+  </div>
+</div>
+
+  </section>
+
+ <!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+  <div class="main-text">
+    <p>Portfolio</p>
+    <h2><span>My</span> Projects </h2>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="main-text" style="margin-top: 60px;">
+    <h2></h2>
+  </div>
+  <div class="portfolio-content">
+    <div class="row">
+      <img src="bg1.jpeg">
+      <div class="layer">
+        <h5>Personalized News Aggregator</h5>
+        <p>A Python app with scraping, topic filtering, and recommendations.</p>
+        <a href="#" data-modal="modal1"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="bg2.jpeg">
+      <div class="layer">
+        <h5>Responsive Portfolio Website</h5>
+        <p>This site! Built using HTML, CSS, JavaScript with modals and smooth scroll.</p>
+        <a href="#" data-modal="modal2"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="bg3.jpeg">
+      <div class="layer">
+        <h5>Car Price Predictor</h5>
+        <p>Team project using ML to estimate used car prices based on input features.</p>
+        <a href="#" data-modal="modal3"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Internships Section -->
+  <div class="main-text" style="margin-top: 80px;">
+    <h2><span>My</span> Internships </h2>
+  </div>
+  <div class="portfolio-content">
+    <div class="row">
+      <img src="bg4.jpeg">
+      <div class="layer">
+        <h5>AWS Cloud Virtual Internship</h5>
+        <p>Explored EC2, IAM, S3, and built cloud confidence over 3 months.</p>
+        <a href="#" data-modal="modal4"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="bg5.jpeg">
+      <div class="layer">
+        <h5>GoFlamingo Internship</h5>
+        <p>Hands-on frontend learning with weekly tasks & progress reports.</p>
+        <a href="#" data-modal="modal5"><i class='bx bx-link-external'></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+
+<!-- Modal Popups with expanded descriptions -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" data-modal="modal1">&times;</span>
+    <h2>Personalized News Aggregator</h2>
+    <p><strong>Type:</strong> Team Project<br><strong>Duration:</strong> 3 months</p>
+    <p><strong>Description:</strong><br>
+    A Python-based news aggregation platform that curates articles by scraping multiple websites. It includes user login, topic selection, and personalized recommendations. The project is aimed at delivering relevant news based on user interest and preferences.
+    </p>
+    <p><strong>Technologies Used:</strong> Python, BeautifulSoup, Pandas, Tkinter (GUI), CSV handling</p>
+    <p><strong>My Contribution:</strong><br>
+    Worked on implementing the login and filtering features. Helped integrate user topic preferences with scraped data for clean display. Collaborated with the team on file handling and basic ML-based filtering.</p>
+    <p><strong>Outcome:</strong><br>
+    Strengthened Python logic and group coordination. Gained confidence in working with real-time data and structuring usable outputs.</p>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" data-modal="modal2">&times;</span>
+    <h2>Responsive Portfolio Website</h2>
+    <p><strong>Type:</strong> Individual Project<br><strong>Duration:</strong> Ongoing</p>
+    <p><strong>Description:</strong><br>
+    This is my personal website to present my journey, skills, and work. It is built to be clean, modern, and responsive across all devices. The site uses modals to open project details without reloading.</p>
+    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+    <p><strong>Features:</strong><br>
+    Modal-based project previews, scroll animation, mobile-friendly navbar, consistent layout structure.</p>
+    <p><strong>Outcome:</strong><br>
+    Gave me practical understanding of responsiveness, layout planning, and visual consistency. It continues to evolve as I learn more.</p>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" data-modal="modal3">&times;</span>
+    <h2>Car Price Predictor</h2>
+    <p><strong>Type:</strong> Team Project<br><strong>Duration:</strong> 3 months</p>
+    <p><strong>Description:</strong><br>
+    A project that predicts used car prices based on attributes like brand, year, mileage, fuel type, and transmission. It involved preprocessing real datasets and building regression models.</p>
+    <p><strong>Technologies Used:</strong> Python, Pandas, NumPy, Scikit-learn, Matplotlib</p>
+    <p><strong>My Contribution:</strong><br>
+    Took part in cleaning and preparing the dataset, applied regression models, and helped with testing model accuracy. Worked with the team to plot results and improve accuracy.</p>
+    <p><strong>Outcome:</strong><br>
+    Understood how ML models are built and tested. Improved knowledge in data preprocessing, teamwork, and result interpretation.</p>
+  </div>
+</div>
+
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <span class="close" data-modal="modal4">&times;</span>
+    <h2>AWS Cloud Virtual Internship</h2>
+    <p><strong>Type:</strong> Virtual Internship<br><strong>Duration:</strong> 3 months</p>
+    <p><strong>Description:</strong><br>
+    Introductory internship from AWS Academy covering key cloud concepts and services. Gained foundational knowledge of cloud infrastructure and deployments.</p>
+    <p><strong>Topics Covered:</strong> IAM, EC2 instances, S3 storage, basic networking, and security principles</p>
+    <p><strong>Highlights:</strong><br>
+    Completed all modules and tasks in a structured learning path. Understood IAM roles and virtual machines setup in AWS Console.</p>
+    <p><strong>Outcome:</strong><br>
+    Built confidence in using cloud tools and understood how scalable applications are deployed.</p>
+  </div>
+</div>
+
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <span class="close" data-modal="modal5">&times;</span>
+    <h2>GoFlamingo Internship</h2>
+    <p><strong>Type:</strong> Remote Internship<br><strong>Duration:</strong> June 5 – July 5</p>
+    <p><strong>Description:</strong><br>
+    A practical internship where I learned core frontend concepts and worked on improving my problem-solving. Most of the tasks involved building from scratch, applying logic, and understanding web layouts.</p>
+    <p><strong>Technologies Used:</strong> HTML, CSS, basic JavaScript, logic-based problem solving</p>
+    <p><strong>Tasks Completed:</strong><br>
+    Completed all weekly learning modules, submitted regular progress, and stayed consistent with updates and reports. Worked independently with guidance from the mentors.</p>
+    <p><strong>Outcome:</strong><br>
+    Improved logical thinking, better understanding of layout design, and learned to manage small tasks with accountability and consistency.</p>
+  </div>
+</div>
+
+   </section>
+
+   <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me!</span></h2>
+      <h4>If You Have Any Ideas In Your Mind.</h4>
+      <p>I'm an Engineer - creating bold & innovative projects based on the ideas provided.</p>
+      <div class="list">
+        <li><a href="#">8074511876</a></li>
+        <li><a href="#">harshita@gmail.com</a></li>
+        <li><a href="#">Like Share</a></li>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email Address" required />
+        <input type="text" placeholder="Your Mobile Number" required />
+        <textarea cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+        <input type="submit" value="Send Message" class="submit" />
+      </form>
+    </div>
+  </section>
+
+  <!-- end section Design -->
+   <section class="end">
+    <div class="last-text">
+        <p>Copyright @2025 by Harshita Vuthaluru All Rights Reserved.</p>
+    </div>
+    <div class="top">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+
+    </div>
+   </section>
+
+  <!-- Custom JS link -->
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
